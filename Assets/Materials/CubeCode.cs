@@ -6,7 +6,7 @@ public class CubeCode : MonoBehaviour
     public float RotateSpeed = 1.0f;
 
     Vector3 spinSpeed = new Vector3(0, 0, 0);
-    Vector3 spinAxis = Vector3.up;
+    Vector3 spinAxis = new Vector3.up;
         
     void Start()
     {
